@@ -1,0 +1,16 @@
+package com.Sample;
+
+class Student
+{
+    Student()
+    {
+        System.out.println("This statement is being printed in the default constructor");
+    }
+}
+
+public class DefaultConstructor {
+
+    public static void main(String[] args) {
+        Student std = new Student();
+    }
+}
